@@ -1,4 +1,4 @@
-Project located in /browser/sample/JSECOIN PROJECT
+Project located in finalproj/browser/sample/JSECOIN PROJECT
 
 INSTRUCTIONS:
 
