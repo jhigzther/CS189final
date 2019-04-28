@@ -1,0 +1,205 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  height: 100px;
+  color: white;
+  max-width: 100%;
+  background: url(https://wallpaperaccess.com/full/21591.jpg);
+  background-size: auto;
+  padding-bottom: 80px;
+  padding-top: 10px;
+  text-align: left;
+  overflow: hidden;
+}
+
+
+
+.title {
+  text-align: left;
+	color: white;
+  margin-left: 20px;
+	font-size: 50px;
+	font-weight: 100;
+  margin-bottom: 0px;
+}
+
+.divnav {
+	background: red;
+  color: white;
+  max-width: 100%
+}
+
+ul{
+	overflow: hidden;
+	text-align: left;
+}
+
+.nav-item{
+	display: inline-block;
+	padding: 20px;
+	font-size: 1.4em;
+	-webkit-transition: background .5s;
+	transition: background .5s;
+  color: white;
+}
+
+.nav-item:hover{
+	background: #474747;
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+.articlecontainer {
+  display: grid;
+  background-color: black;
+  padding-bottom: 300px;
+  grid-gap: 50px;
+  border: 5px white;
+  padding-right: 325px;
+  grid-template-columns: repeat(1, [col] 200px);
+  grid-template-rows: repeat(2, [col] auto); 
+}
+
+.article1 {
+  grid-area: art1;
+  background: white;
+  grid-row: 1;
+  display: grid;
+  grid-template-rows: 350px 200px;
+}
+
+.articlepicture1, .articlepicture2 {
+  background: url(https://wallpaperaccess.com/full/21591.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.article2 {
+  grid-area: article2;
+  background: white;
+  grid-row: 2;
+  display: grid;
+  grid-template-rows: 350px 200px;
+}
+
+
+
+.item {
+  margin-left: 10px;
+}
+
+.item h2 {
+  font-family: "Roboto Slab";
+}
+
+.item h4 {
+  font-family: "Poiret One";
+  line-height: 0.5;
+}
+
+.item p {
+  font-family: "Quicksand";
+}
+
+.item a:hover {
+  color: #70a6ff;
+}
+
+.item a:active{
+  color: #e070ff;
+}
+
+.name {
+  text-align: center;
+  width: 240px;
+}
+
+.name p {
+  font-style: bold;
+}
+
+.name a:hover {
+  color: red;
+}
+
+.name a:active {
+  color: red;
+}
+
+.gallerybox {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.gallerycontainer {
+  display: grid;
+  grid-gap: 10px;
+  border: 5px white;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  align: center;
+  grid-template-columns: repeat(4, [col] 300px);
+  grid-template-rows: repeat(3, [col] auto); 
+}
+
+.gbox1 {
+  background: url('https://pmcvariety.files.wordpress.com/2016/05/spongebob-nickelodeon.jpg?w=1000&h=563&crop=1') no-repeat;
+  background-size: cover;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.gbox2 {
+  background: url('https://nick-intl.mtvnimages.com/uri/mgid:file:gsp:kids-assets:/nick/properties/spongebob-squarepants/spongebob-squarepants-hero-art.jpg?quality=1&height=360&width=640&matte=true&crop=false') no-repeat;
+  background-size: cover;
+  grid-column: 2/4;
+  grid-row: 1/2;
+}
+
+.gbox3 {
+  background: linear-gradient(black, black, salmon);
+  background-size: cover;
+  grid-column: 4;
+  grid-row: 1/2;
+}
+
+.gbox4 {
+  background: url('https://townsquare.media/site/442/files/2017/06/spongebob.jpg?w=980&q=75') no-repeat;
+  background-size: cover;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.gbox5 {
+  background: url('https://nick-intl.mtvnimages.com/uri/mgid:file:gsp:kids-assets:/nick/properties/spongebob-squarepants/spongebob-squarepants-hero-art.jpg?quality=1&height=360&width=640&matte=true&crop=false') no-repeat;
+  background-size: cover;
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.gbox6 {
+  background: url('https://nerdist.com/wp-content/uploads/2017/08/spongebob.jpg') no-repeat;
+  background-size: cover;
+  grid-column: 3/5;
+  grid-row: 2/3;
+}
+
+.gbox1 p, .gbox2 p, .gbox3 p, .gbox4 p, .gbox5 p, .gbox6 p {
+  color: white;
+  padding-top: 160px;
+  padding-left: 10px;
+  overflow: hidden;
+  style: bold;
+}
